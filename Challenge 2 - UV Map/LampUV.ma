@@ -1,6 +1,6 @@
 //Maya ASCII 2024 scene
-//Name: LampRemodel.ma
-//Last modified: Wed, Sep 13, 2023 05:09:00 PM
+//Name: LampUV.ma
+//Last modified: Wed, Sep 13, 2023 05:09:39 PM
 //Codeset: 1252
 requires maya "2024";
 requires -nodeType "aiOptions" -nodeType "aiAOVDriver" -nodeType "aiAOVFilter" "mtoa" "5.3.1.1";
@@ -10,12 +10,12 @@ fileInfo "product" "Maya 2024";
 fileInfo "version" "2024";
 fileInfo "cutIdentifier" "202304191415-7fa20164c6";
 fileInfo "osv" "Windows 11 Home v2009 (Build: 22621)";
-fileInfo "UUID" "E99CE4FB-40D5-DF68-BC0D-19901008BC70";
+fileInfo "UUID" "A4868900-403B-A169-5ACC-F0A84574287B";
 createNode transform -s -n "persp";
 	rename -uid "81160C13-4588-E54C-286E-F58C7310C016";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" -0.042217570205673738 11.566331253421959 -12.094385368178973 ;
-	setAttr ".r" -type "double3" -38.138352723629282 1980.1999999995367 0 ;
+	setAttr ".t" -type "double3" 9.9135794624401008 6.7549489005289853 10.780936676510398 ;
+	setAttr ".r" -type "double3" -17.738352723646877 2202.5999999999885 0 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "812E04BE-4990-100B-F64F-76B38C76BD02";
 	setAttr -k off ".v" no;
@@ -2462,4 +2462,4 @@ connectAttr "polyMapSewMove6.out" "polyTweakUV20.ip";
 connectAttr "lambert2SG.pa" ":renderPartition.st" -na;
 connectAttr "LampMatte.msg" ":defaultShaderList1.s" -na;
 connectAttr "defaultRenderLayer.msg" ":defaultRenderingList1.r" -na;
-// End of LampRemodel.ma
+// End of LampUV.ma
