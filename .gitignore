@@ -1,12 +1,10 @@
 
+*.fbx
+
 *.spp
 
-*.painter_lock
+*.zip
 
 *.mtl
 
 *.obj
-
-*.fbx
-
-*.zip

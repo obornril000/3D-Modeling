@@ -1,2 +1,12 @@
 
 *.spp
+
+*.painter_lock
+
+*.mtl
+
+*.obj
+
+*.fbx
+
+*.zip
