@@ -1,6 +1,6 @@
 //Maya ASCII 2024 scene
 //Name: Flower.ma
-//Last modified: Tue, Nov 14, 2023 05:11:23 PM
+//Last modified: Tue, Nov 14, 2023 05:24:04 PM
 //Codeset: 1252
 requires maya "2024";
 requires -nodeType "aiOptions" -nodeType "aiAOVDriver" -nodeType "aiAOVFilter" "mtoa" "5.3.1.1";
@@ -10,12 +10,12 @@ fileInfo "product" "Maya 2024";
 fileInfo "version" "2024";
 fileInfo "cutIdentifier" "202304191415-7fa20164c6";
 fileInfo "osv" "Windows 11 Home v2009 (Build: 22621)";
-fileInfo "UUID" "E00A19C3-4653-65DB-1E60-3BB91A944243";
+fileInfo "UUID" "83D378A9-40BA-C9D3-2F74-8DA6566AE6AE";
 createNode transform -s -n "persp";
 	rename -uid "75CAF241-4268-A159-F8FE-F59BF34001AD";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 1.3909435415981601 6.1075142264826292 6.422459331761031 ;
-	setAttr ".r" -type "double3" -25.538352725437839 1091.3999999990033 -4.0557077008304744e-16 ;
+	setAttr ".t" -type "double3" 0.96974791111802994 6.6719257851639373 6.1864243205707012 ;
+	setAttr ".r" -type "double3" -30.938352725437859 1087.7999999989991 0 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "2C2364A0-406D-7277-B0A4-68A3CEAE3F67";
 	setAttr -k off ".v" no;
